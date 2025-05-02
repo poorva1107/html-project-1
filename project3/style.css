@@ -1,0 +1,903 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+.firstsection{
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid black; */
+    position: relative;
+    /* position: relative; */
+}
+.upperleft{
+    width: 6%;
+    height: 25%;
+    /* border: 1px solid black; */
+    position:absolute;
+    background-color: #EFF8ED;
+    border-bottom-right-radius: 60px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.upperright{
+    width: 47%;
+    height: 80%;
+    /* border: 1px solid black; */
+    position:absolute;
+    background-color: #EFF8ED;
+    right: -2;
+    top: -4;
+    z-index: -1;
+    border-bottom-left-radius: 45px;
+}
+.navbar{
+    width: 80%;
+    height: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 7rem;
+}
+.brand{
+    margin-top: 1rem;
+    color: #252B42;
+    margin-left: 3rem;
+}
+.navbarhome{
+    display: flex;
+    /* border: 1px solid black; */
+    margin-left:6rem;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    color: #737373;
+}
+.loginbar{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin-left: 5rem;
+    display: flex;
+}
+.login{
+    margin-top:1.5rem;
+    margin-left: 1rem;
+    color: #96BB7C;
+}
+.joinus{
+    width: 30%;
+    height: 40%;
+    /* border: 1px solid black; */
+    background-color: #96BB7C;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+    margin-left: 5rem;
+    color: white;
+    border-radius: 4px;
+}
+.mainbox{
+    width: 40%;
+    height: 35%;
+    /* border: 1px solid black; */
+    margin-left: 25rem;
+    margin-top: 11rem;
+    /* padding: 2rem; */
+}
+.headingline{
+    margin-top: 2rem;
+    margin-left: 15rem;
+    color: #96BB7C;
+}
+.heading{
+    width: 40%;
+    margin-top: 2rem;
+    margin-left: 12rem;
+    text-align: center;
+    color: #252B42;
+}
+.headingpara{
+    margin-top: 3rem;
+    width: 25rem;
+    text-align: center;
+    margin-left: 7rem;
+    color: #737373;
+}
+.firstlowerbuttons{
+    width: 30%;
+    height: 8%;
+    /* border: 1px solid black; */
+    margin-left: 30rem;
+    margin-top:1rem ;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-evenly;
+}
+.buttonone{
+    width: 37%;
+    height: 70%;
+    /* border: 1px solid black; */
+    /* margin-left: 3rem; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #96BB7C;
+    color: white;
+    border-radius: 4px;
+}
+.buttontwo{
+    width: 37%;
+    height: 70%;
+    border: 1px solid #96BB7C;
+    /* margin-left: 3rem; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #96BB7C;
+    border-radius: 4px;
+}
+ .secondsection{
+    height: 20vh;
+    width: 100vw;
+ }
+ .imgsection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+ }
+ .img{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .thirdsection{
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid black; */
+    margin-top: 7rem;
+ }
+ .thirdheading{
+    width: 35%;
+    height: 20%;
+    /* border: 1px solid black; */
+    margin-left: 3rem;
+    margin-top: 3rem;
+ }
+ .singleline{
+    margin-top: 0.5rem;
+    color: #96BB7C;
+    margin-left: 6rem;
+ }
+ .packageheading{
+    margin-top: 0.5rem;
+    color: #252B42;
+    margin-left: 9rem;
+ }
+ .smallpara{
+    /* padding: 1rem; */
+    margin-top: 0.5rem;
+    color: #737373;
+    margin-left: 5rem;
+ }
+ .infoimg{
+    width: 80%;
+    height: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 1rem;
+    margin-top: 7rem;
+    margin-left: 8rem;
+ }
+ .imgcount{
+    width: 30%;
+    height: 100%;
+    border: 1px solid #00000012;
+    border-radius: 6px;
+ }
+ .imgcount3{
+    width: 30%;
+    height: 100%;
+    border: 1px solid #00000012;
+    border-radius: 6px;
+    background-color: #96BB7C;
+    color: white;
+ }
+ .school{
+    margin-left: 2rem;
+    margin-top: 2rem
+ }
+ .degree{
+    margin-left: 2rem;
+    margin-top: 2rem
+ }
+ .instruction{
+    margin-left: 2rem;
+    margin-top: 2rem
+ }
+ .book{
+    margin-left: 2rem;
+    margin-top: 2rem
+ }
+ .courses{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+    /* border-bottom: 1px solid orange; */
+    
+ }
+ .expert{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+ }
+ .lifetime{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+ }
+ .container{
+    width: 20%;
+    height: 1%;
+    background-color: orange;
+    margin-left: 2rem;
+ }
+ .container3{
+    width: 20%;
+    height: 1%;
+    background-color: white;
+    margin-left: 2rem;
+ }
+ .firstpara{
+    width: 40%;
+    height: 20%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: #737373;
+ }
+ .thirdpara{
+    width: 40%;
+    height: 20%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: white;
+ }
+ .girlsection{
+    width: 100vw;
+    height: 70vh;
+    /* border: 1px solid black; */
+    display: flex;
+ }
+ .girlimg{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+ }
+ .sidesection{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    padding-left: 1rem;
+ }
+ .girl{
+    width: 80%;
+    height: 90%;
+ }
+ .sideheading{
+    padding-left: 2rem;
+ }
+ .sidecontainer{
+    width:15%;
+    height: 1%;
+    background-color: #E74040;
+    margin-top: 10rem;
+    margin-left:12rem ;
+ }
+ .sideheading{
+    width: 30%;
+    height: 60%;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    gap: 2rem;
+ }
+ .sidepara{
+    margin-top: 2rem;
+    font-size: 15px;
+    width: 100%;
+    color: #737373;
+ }
+ .sidebuton{
+    margin-top: 5rem;
+    color: #96BB7C;
+ }
+ .teacherinfo{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin-top: 15rem;
+    background-color: #EFF8ED;
+ }
+ .teacherheading{
+    width: 30%;
+    height: 20%;
+    /* border: 1px solid black; */
+    margin-left: 10rem;
+    margin-top: 5rem;
+ }
+ .teacherline{
+    color: #96BB7C;
+ }
+ .Expertsheading{
+    color: #252B42;
+    margin-top: 1rem;
+ }
+ .teacherpara{
+    color: #737373;
+    margin-top: 1rem;
+ }
+ .purchaseimg{
+    width: 90%;
+    height: 65%;
+    /* border: 1px solid #00000012; */
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    /* justify-content: space-between; */
+    margin-left: 10rem;
+    /* background-color: white; */
+ }
+ .imgpurchase{
+    height: 100%;
+    width: 20%;
+    border: 1px solid #00000012; ;
+}
+.pencils1{
+    width: 100%;
+    height: 40%;
+    background-image: url(./49a87c763c73dd52172aae4f8fd131799805ac11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pencils2{
+    width: 100%;
+    height: 40%;
+    background-image: url(./26bcd3374ee1cde079f04555acc010c67f60927a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pencils3{
+    width: 100%;
+    height: 40%;
+    background-image: url(./c3b166cce1284b46e0af4167a231582ba78de9ae.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pencils4{
+    width: 100%;
+    height: 40%;
+    background-image: url(./99ecee9404ba3acb0bc1d369aebfdd732e26545a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sale{
+    width: 13%;
+    height: 8%;
+    background-color:#E74040;
+}
+.butttons{
+    width: 45%;
+    height: 15%;
+    /* border: 1px solid black; */
+    margin-top: 9rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trainingheading{
+    width: 90%;
+    height: 5%;
+    /* border: 1px solid black; */
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #96BB7C;
+    padding-left: 2rem;
+    display: flex;
+}
+.traingcourse{
+    margin-left: 0.6rem;
+    margin-top: 0.3rem;
+}
+.raitings{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin-left: 1rem;
+    background-color: #2D4059;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star{
+    width: 50%;
+    height: 90%;
+}
+.raitingsnumbers{
+    width: 50%;
+    height: 90%;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+}
+.packagesbox{
+    width: 70%;
+    height: 50%;
+    /* border: 1px solid black; */
+    margin-left: 3rem;
+    margin-top: 0.2rem;
+    /* text-align: center; */
+}
+.packageheading{
+    color: #252B42;
+    margin-left: 0.6rem;
+}
+.packagepara{
+    color: #737373;
+    margin-top: 0.8rem;
+    text-align: left;
+    margin-left: 0.6rem;
+}
+.salesarrow{
+    width: 100%;
+    height: 7%;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 0.6rem;
+    /* margin-left: 0.6rem; */
+}
+.arrow{
+    height: 80%;
+    width: 7%;
+    margin-left: 0.6rem;
+    /* margin-top: 0.5rem; */
+}
+.arrowpara{
+    margin-left: 1rem;
+    color: #737373;
+}
+.dollars{
+    width: 60%;
+    height: 8%;
+    /* border: 1px solid black; */
+    margin-left: 0.6rem;
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.dollargrey{
+    color:#BDBDBD;
+}
+.dollarorange{
+    color: #FFAB71;
+}
+.smallinfo{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid black; */
+    margin-top: 1.3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pro{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.proimg{
+    width: 50%;
+    height: 80%;
+    /* border: 1px solid black; */
+}
+.propara{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid black; */
+    color: #737373;
+}
+.les{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.lesimg{
+    width: 30%;
+    height: 70%;
+    /* border: 1px solid black; */
+}
+.lespara{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    color: #737373;
+}
+.hrs{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.hrsimg{
+    width: 30%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+.hrspara{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    color: #737373;
+}
+.lowerbutton{
+    width: 70%;
+    height: 10%;
+    border: 1px solid #96BB7C;
+    border-radius: 30px;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    color: #96BB7C;
+    text-align: center;
+}
+.Educationsection{
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid black; */
+}
+.educationheading{
+    width: 70%;
+    height: 15%;
+    /* border: 1px solid black; */
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-left: 10rem;
+}
+.PracticeAdvice{
+    margin-top: 2rem;
+    color: #96BB7C;
+}
+.qualityeduaction{
+    margin-top: 1rem;
+    color: #252B42;
+}
+.educationpara{
+    margin-top: 1rem;
+    width: 50%;
+    color: #737373;
+}
+.educationimg{
+    width: 80%;
+    height: 75%;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 1rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+.samecolumns{
+    width:30%;
+    height: 100%;
+    border: 1px solid #00000012;
+}
+.samecolumn2{
+    width:30%;
+    height: 100%;
+    border: 1px solid #00000012;
+}
+.favouritecircle{
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    height: 10%;
+    width: 20%;
+}
+.free{
+    color: #252B42;
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+}
+.freepara{
+    width: 50%;
+    letter-spacing: 0.7px;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    color: #737373;
+}
+.numdollars{
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+    color: #96BB7C;
+}
+.dollarpara{
+    margin-left: 2.5rem;
+    margin-top: 0.2rem;
+    color: #8EC2F2;
+}
+.slatepara{
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+    width: 60%;
+    color: #737373;
+}
+.freebutton{
+    width: 75%;
+    height: 6%;
+    /* border: 1px solid black; */
+    margin-left: 2rem;
+    margin-top: 1rem;
+    background-color: #96BB7C;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+}
+.speciality{
+    width: 70%;
+    height: 35%;
+    /* border: 1px solid black; */
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+}
+.features{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.rightsign{
+    width: 15%;
+    height: 75%;
+    /* border: 1px solid black; */
+    margin-top: 0.3rem;
+}
+ .rightsign4{
+    width: 15%;
+    height: 75%;
+    /* border: 1px solid black; */
+    margin-top: 0.3rem;
+    background-color: #BDBDBD;
+    border-radius: 50%;
+} 
+.featurescheck{
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #252B42;
+    margin-left: 0.2rem;
+}
+.profilesection{
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid black; */
+    margin-top: 8rem;
+    padding: 10rem;
+}
+.testimonials{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* margin-left: 8rem;
+    margin-top: 7rem; */
+}
+.profilesinlgeline{
+    color: #96BB7C;
+}
+.profileheading{
+    color: #252B42;
+}
+.profilepara{
+    color: #737373;
+    width: 30%;
+}
+.teacherprofile{
+    width: 80%;
+    height: 60%;
+    /* border: 1px solid black; */
+    margin-top: 5rem;
+    margin-left: 7rem;
+    display: flex;
+    gap: 2rem;
+}
+.designers{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.profileimg{
+    width: 20%;
+    height:30%;
+    /* clip-path: circle(40px); */
+    margin-left: 11.5rem;
+    border-radius: 50%;
+}
+.designpara{
+    margin-top: 1rem;
+    margin-left: 5rem;
+    width: 65%;
+    text-align: center;
+    color: #737373;
+}
+.starssection{
+    width: 25%;
+    height: 7%;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 11rem;
+    margin-top: 1.2rem;
+}
+.star{
+    width: 15%;
+    height: 90%;
+}
+.names{
+    margin-left: 12rem;
+    margin-top: 0.6rem;
+    color: #252B42;
+}
+.post{
+    margin-left: 13rem;
+    margin-top: 0.6rem;
+    color: #737373;
+}
+.newslettersection{
+    width: 100vw;
+    height: 70vh;
+    /* border: 1px solid black; */
+}
+.newsletter{
+    width: 30%;
+    height: 17%;
+    /* border: 1px solid black; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 32rem;
+    margin-top: 15rem;
+}
+.newsline{
+    color: #96BB7C;
+}
+.newsheading{
+    color: #252B42;
+}
+.para{
+    color: #737373;
+}
+.emailbar{
+    width: 50%;
+    height: 8%;
+    /* border: 1px solid black; */
+    margin-left: 22rem;
+    margin-top: 8rem;
+    display: flex;
+}
+.email{
+    width: 80%;
+    height: 100%;
+    border: 1px solid #E6E6E6;
+}
+.youremail{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color: #737373;
+}
+.subscribe{
+    width: 20%;
+    height: 100%;
+    border: 1px solid #E6E6E6;
+    background-color: #96BB7C;
+    color: white;
+    text-align: center;
+}
+.subscribename{
+    margin-top: 1rem;
+}
+.footer{
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid black; */
+}
+.columnsection{
+    width: 95%;
+    height: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 1rem;
+    margin-left: 3rem;
+}
+.columns{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.company{
+    text-align: left;
+    margin-left: 2rem;
+    color: #252B42;
+}
+.comapanycolumn{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    text-align: left;
+    margin-left: 2rem;
+    color: #737373;
+}
+.contactsource{
+    width: 100%;
+    height:15%;
+    /* border: 1px solid black; */
+    margin-top: 2.5rem;
+    display: flex;
+}
+.signs{
+    width: 15%;
+    height: 80%;
+    /* border: 1px solid black; */
+}
+.sources{
+    color: #737373;
+    width: 70%;
+    margin-left: 1rem;
+}
+.footerbar{
+    width: 90%;
+    height: 15%;
+    /* border: 1px solid black; */
+    margin-top: 2rem;
+    margin-left: 5rem;
+    display: flex;
+}
+.footerline{
+    margin-top: 2rem;
+    color: #737373;
+}
+.footerlogo{
+    width: 20%;
+    height: 35%;
+    /* border: 1px solid black; */
+    margin-left: 35rem;
+    margin-top: 2rem;
+    display:flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+.logoimg{
+    width: 15%;
+}
